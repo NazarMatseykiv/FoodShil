@@ -1,0 +1,74 @@
+body {
+    background-color: #f5f5f5;
+    font-family: 'Arial', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #c07d00;
+}
+
+.sidebar .sidebar-content {
+    background-color: #f0f0f0;
+}
+
+button {
+    background-color: #ca7300;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffc273;
+}
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.sidebar-title {
+    animation: slideDown 1s ease-in-out;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.stSelectbox {
+    border-radius: 5px;
+    border: 1px solid #ffc273;
+    padding: 8px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
+
+.stSelectbox:hover {
+    border-color: #ffc273;
+}
+
+/* Анімація при фокусі */
+.stSelectbox:focus {
+    box-shadow: 0 0 5px #ffc273;
+}

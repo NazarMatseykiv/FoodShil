@@ -1,0 +1,11 @@
+bread
+dairy product
+dessert
+egg
+fried food
+meat
+noodles-Pasta
+rice
+seafood
+soup
+vegetable-Fruit
